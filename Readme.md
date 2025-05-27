@@ -27,6 +27,7 @@ You can find all the CSV files inside the [`datasets/`](./datasets) folder.
 - [`sql_files/sales_analysis_queries.sql`](./sql_files/salesproject_query.sql): SQL queries for various sales analyses and reports.  
 - [`schema_image/schema_diagram.png`](./schema_image/ERR_diagram.png): Schema diagram illustrating the database structure and relationships.
 
+
 ---
 
 ## How to Use
