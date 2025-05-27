@@ -23,9 +23,9 @@ You can find all the CSV files inside the [`datasets/`](./datasets) folder.
 
 ## Project Files
 
-- [`sql_files.sql`](./sql/create_tables.sql): SQL script to create the database schema and define relationships between tables.  
-- [`sales_analysis_queries.sql`](./sql/sales_analysis_queries.sql): Sample SQL queries that perform various sales analyses and reporting.  
-- [`schema_diagram.png`](./images/schema_diagram.png): Visual diagram showing the relationships between the database tables.
+- [`sql_files/create_tables.sql`](./sql_files/project_setup.sql): SQL script to create tables and define relationships.  
+- [`sql_files/sales_analysis_queries.sql`](./sql_files/salesproject_query.sql): SQL queries for various sales analyses and reports.  
+- [`schema_image/schema_diagram.png`](./schema_image/ERR_diagram.png): Schema diagram illustrating the database structure and relationships.
 
 ---
 
@@ -41,7 +41,7 @@ You can find all the CSV files inside the [`datasets/`](./datasets) folder.
 
 ## Conclusion
 
-This project offers hands-on experience with database design, data importing, and complex SQL querying on a realistic sales dataset. It is ideal for practicing SQL skills and understanding business data workflows.
+This project offers hands-on experience with database design, data importing, and complex SQL querying on a realistic sales dataset.
 
 Feel free to fork this repository, modify queries, and expand the dataset for deeper analysis!
 
