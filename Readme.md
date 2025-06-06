@@ -1,51 +1,44 @@
-# ProjectSales - Sales Data Analysis
+# Sales Data Analysis Project
 
-This project demonstrates how to design and analyze a sales database using SQL. The database captures sales transactions, customers, products, sales territories, and calendar data to provide meaningful business insights.
+## Overview
 
-The goal is to practice advanced SQL queries such as aggregations, joins, window functions, ranking, and filtering in a real-world style dataset.
+This project demonstrates a comprehensive sales data analysis using both SQL and Power BI tools. The goal is to analyze sales transactions, customer behavior, and product performance across different countries and cities. 
 
----
+Using SQL, we perform data aggregation, ranking with Common Table Expressions (CTEs), and generate insights such as top-selling products per country and total revenue by region. The Power BI component visualizes this data through interactive dashboards, maps, and KPIs to support business decision-making.
 
-## Dataset
+## Project Structure
 
-The dataset consists of CSV files for each table in the database:
+- **Files/**  
+  - [PowerBI_SalesProject.pbix](Files/PowerBI_SalesProject.pbix) — Power BI dashboard file with multiple report pages  
+  - [SQL_project_setup.sql](Files/SQL_project_setup.sql) — SQL script to create tables and load data  
+  - [SQL_query.sql](Files/SQL_query.sql) — SQL queries used for analysis  
 
-- Customer data
-- Product details
-- Sales transactions
-- Sales territory info
-- Geography data
-- Calendar dates
+- **Images/**  
+  - [Customer.png](Images/Customer.png)  
+  - [Main_Dashboard.png](Images/Main_Dashboard.png)  
+  - [Maps.png](Images/Maps.png)  
+  - [PowerBI_Schema.png](Images/PowerBI_Schema.png)  
+  - [SQL_ERR_diagram.png](Images/SQL_ERR_diagram.png)  
 
-You can find all the CSV files inside the [`datasets/`](./datasets) folder.
+- **Datasets/**  
+  - Customer.csv  
+  - Date.csv  
+  - Geography.csv  
+  - Product.csv  
+  - Sales.csv  
+  - SalesTerritory.csv  
 
----
+- **Documentation/**  
+  - [Sales_Data_Analysis.md](Documentation/Sales_Data_Analysis.md) — Detailed project documentation including business insights and conclusions  
 
-## Project Files
+## Summary
 
-- [`sql_files/create_tables.sql`](./sql_files/project_setup.sql): SQL script to create tables and define relationships.  
-- [`sql_files/sales_analysis_queries.sql`](./sql_files/salesproject_query.sql): SQL queries for various sales analyses and reports.  
-- [`schema_image/schema_diagram.png`](./schema_image/ERR_diagram.png): Schema diagram illustrating the database structure and relationships.
-
-
----
-
-## How to Use
-
-1. Create a new database called `ProjectSales` (or any preferred name).  
-2. Run the `create_tables.sql` script to create tables and foreign key constraints.  
-3. Import the CSV files from the `datasets` folder into their respective tables.  
-4. Run the queries from `sales_analysis_queries.sql` to explore and analyze the sales data.  
-5. Use the schema diagram as a reference to understand table relationships.
-
----
+The project provides valuable insights into sales patterns, identifying top countries and cities by revenue, key products driving sales, and customer behavior trends. By combining SQL data processing with Power BI visualizations, it enables clear and actionable business intelligence reporting.
 
 ## Conclusion
 
-This project offers hands-on experience with database design, data importing, and complex SQL querying on a realistic sales dataset.
-
-Feel free to fork this repository, modify queries, and expand the dataset for deeper analysis!
+This sales analysis project showcases how integrating SQL data querying with Power BI's visualization capabilities can effectively support business decisions. The findings highlight the importance of targeted marketing and inventory management by region and product category to maximize revenue growth.
 
 ---
 
-**Enjoy exploring the sales data!**
+Feel free to explore the files and documentation for a complete understanding of the project.
