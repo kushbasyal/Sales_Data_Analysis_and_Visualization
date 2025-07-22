@@ -58,26 +58,33 @@ This Power BI report incorporates several advanced features for flexibility, int
 
 ## 📂 Project Structure
 
-**Sales-Data-Analysis/**  
-├─ **PowerBI_SalesProject.pbix**  
-├─ **SQL_project_setup.sql**  
-├─ **SQL_query.sql**  
-├─ **Datasets/**  
-│   ├─ Customer.csv  
-│   ├─ Product.csv  
-│   ├─ Sales.csv  
-│   ├─ Geography.csv  
-│   ├─ Date.csv  
-│   └─ SalesTerritory.csv  
-├─ **Images/**  
-│   ├─ Main_Dashboard.png  
-│   ├─ Maps.png  
-│   ├─ Customer.png  
-│   ├─ PowerBI_Schema.png  
-│   └─ SQL_ERR_diagram.png  
-└─ **Documentation/**  
-    └─ Sales_Data_Analysis_Project.md  
+Sales-Data-Analysis/  
+├── Datasets/  
+│   ├── Customer.csv  
+│   ├── Product.csv  
+│   ├── Sales.csv  
+│   ├── Geography.csv  
+│   ├── Date.csv  
+│   └── SalesTerritory.csv  
+│  
+├── Documentation/  
+│   └── Sales_Data_Analysis.md  
+│  
+├── Files/  
+│   ├── PowerBI_SalesProject.pbix  
+│   ├── SQL_project_setup.sql  
+│   └── SQL_query.sql  
+│  
+├── Images/  
+│   ├── Main_Dashboard.png  
+│   ├── Maps.png  
+│   ├── Customer.png  
+│   ├── PowerBI_Schema.png  
+│   └── SQL_ERR_diagram.png  
+│  
+└── README.md
 
 
-✅ Conclusion
+
+## ✅ Conclusion
 This Sales Data Analysis project effectively demonstrates how combining SQL-based data processing with Power BI visual storytelling can provide actionable insights. With deep analysis into revenue patterns, customer behavior, and regional performance, this solution empowers businesses to optimize their strategies for growth, targeting, and customer retention.
