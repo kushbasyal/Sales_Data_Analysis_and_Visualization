@@ -1,4 +1,8 @@
--- Cleaning data before analysis
+-- SQL Queries to analyze sales data
+-- This script assumes the existence of a database with the following tables:
+-- Sales, Customer, Product, SalesTerritory, Geography, Calendar
+
+-- First, we will describe the structure of each table to understand the schema
 
 DESCRIBE Sales;
 DESCRIBE Customer;
@@ -8,6 +12,7 @@ DESCRIBE Geography;
 DESCRIBE Calendar;
 
 -- Retrieve values from each table
+
 select * from customer limit 10;
 select * from calendar limit 10;
 select * from geography limit 10;
