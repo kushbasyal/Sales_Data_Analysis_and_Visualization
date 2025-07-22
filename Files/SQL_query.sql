@@ -1,5 +1,4 @@
 -- SQL Queries to analyze sales data
--- This script assumes the existence of a database with the following tables:
 -- Sales, Customer, Product, SalesTerritory, Geography, Calendar
 
 -- First, we will describe the structure of each table to understand the schema
@@ -183,7 +182,4 @@ SELECT
   ) - RevenuePerDay AS RevenueChange
 FROM ProductDailyRevenue
 ORDER BY ProductKey, OrderDate;
-
-
-
 

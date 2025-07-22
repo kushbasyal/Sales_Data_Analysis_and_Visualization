@@ -56,27 +56,28 @@ This Power BI report incorporates several advanced features for flexibility, int
 - Orders were evenly split across Low Income and Medium Income groups (each ~12K orders), while High Income accounted for 3K orders.
 - In 2008, Joy Ramos, a professional, was the top customer by revenue contribution.
 
-📂 Project Structure
+## 📂 Project Structure
 
-Files/
-├── PowerBI_SalesProject.pbix         # Power BI dashboard file
-├── SQL_project_setup.sql             # SQL table creation & data loading
-├── SQL_query.sql                     # Analytical SQL queries
-├── Datasets/
-│   ├── Customer.csv
-│   ├── Product.csv
-│   ├── Sales.csv
-│   ├── Geography.csv
-│   ├── Date.csv
-│   └── SalesTerritory.csv
-├── Images/
-│   ├── Main_Dashboard.png
-│   ├── Maps.png
-│   ├── Customer.png
-│   ├── PowerBI_Schema.png
-│   └── SQL_ERR_diagram.png
-└── Documentation/
-    └── Sales_Data_Analysis.md        # Detailed documentation and insights
+**Sales-Data-Analysis/**  
+├─ **PowerBI_SalesProject.pbix**  
+├─ **SQL_project_setup.sql**  
+├─ **SQL_query.sql**  
+├─ **Datasets/**  
+│   ├─ Customer.csv  
+│   ├─ Product.csv  
+│   ├─ Sales.csv  
+│   ├─ Geography.csv  
+│   ├─ Date.csv  
+│   └─ SalesTerritory.csv  
+├─ **Images/**  
+│   ├─ Main_Dashboard.png  
+│   ├─ Maps.png  
+│   ├─ Customer.png  
+│   ├─ PowerBI_Schema.png  
+│   └─ SQL_ERR_diagram.png  
+└─ **Documentation/**  
+    └─ Sales_Data_Analysis_Project.md  
+
 
 ✅ Conclusion
 This Sales Data Analysis project effectively demonstrates how combining SQL-based data processing with Power BI visual storytelling can provide actionable insights. With deep analysis into revenue patterns, customer behavior, and regional performance, this solution empowers businesses to optimize their strategies for growth, targeting, and customer retention.
