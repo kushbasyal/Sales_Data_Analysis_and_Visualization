@@ -37,20 +37,20 @@ This Power BI report incorporates several advanced features for flexibility, int
 
 📈 Sales Performance (Main Dashboard)
 
-- Total Revenue of $306M and Profit of $126M generated from 26.7K orders.
+- **Total Revenue of $306M and Profit of $126M generated from 26.7K orders.**
 - Extra Charges (tax & freight) amounted to $3.1M.
 - A significant surge in revenue and profit was seen between July 2007 and July 2008, after a relatively stable period from July 2005 to 2007.
-- The top-selling product, Water Bottle - 30 oz, alone contributed 4.1K orders, followed by Patch kit/8 Patches (3K) and Mountain Tire Tube (2.9K).
-- Current month revenue stood at $20.05M with 2,195 orders, compared to the previous month’s $19.94M and 2,206 orders.
+- **The top-selling product, Water Bottle - 30 oz**, alone contributed **4.1K** orders, followed by Patch kit/8 Patches (3K) and Mountain Tire Tube (2.9K).
+- **Current month revenue stood at $20.05M with 2,195 orders, compared to the previous month’s $19.94M and 2,206 orders.**
 
 🗺️ Regional Distribution (Map Dashboard)
 
-- The United States led with 9,201 orders, far outpacing Germany (2,412 orders) and France (2,411 orders).
+- **The United States led with 9,201 orders**, far outpacing Germany (2,412 orders) and France (2,411 orders).
 - Filters allow users to focus on specific regions like North America, Europe, and Pacific to explore localized performance.
 
 👥 Customer Analytics (Customer Dashboard)
 
-- The business served a total of 17.9K customers, with an average revenue of $17.1K per customer.
+- **The business served a total of 17.9K customers, with an average revenue of $17.1K per customer**.
 - Customer activity saw a noticeable increase post-July 2007, continuing strong into 2008.
 - Among occupations, Professionals contributed the highest number of orders (8K), followed by Skilled Manual (6K) and Management (5K).
 - Orders were evenly split across Low Income and Medium Income groups (each ~12K orders), while High Income accounted for 3K orders.
